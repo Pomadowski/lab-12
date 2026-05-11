@@ -1,0 +1,18 @@
+#include <iostream> 
+int floor;
+int material;
+int temperature;
+
+int main(){
+while(true){
+std::cout << "select floor: \n 1 \n 2 \n 3 \n 4 \n 5 \n"; 
+
+
+std::cin >> floor;
+
+std::cout << "moving to floor " << floor << "\n doors opening \n (sleep 5 seconds) \n doors closing \n" << std::endl;
+
+
+}
+return 0;
+}
