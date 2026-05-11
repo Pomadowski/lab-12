@@ -1,0 +1,24 @@
+#include <iostream> 
+int bikeID;
+int payment;
+
+int main(){
+while(true){
+std::cout << "select bike for rental \n"; 
+std::cin >> bikeID;
+
+std::cout << "please deposit payment \n "
+std::cin >> payment;
+
+if(payment > 10){
+	std::cout << "bike unlocked, thank you for using Bolt! \n"
+}
+else{
+	std::cout << "insufficient funds \n"
+
+}
+
+
+}
+return 0;
+}
