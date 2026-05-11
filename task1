@@ -1,0 +1,30 @@
+#include <iostream> 
+int option;
+int material;
+int temperature;
+
+int main(){
+while(true){
+std::cout << "Start menu\n 1. material \n 2. temperature \n 3. run \n"; 
+
+
+std::cin >> option;
+
+switch(option){
+	case 1:
+		std::cout << " 1. synthetic \n 2. cotton \n";
+		std::cin >> material;		
+		break;
+	case 2:
+		std::cout << " 1. 40 degrees \n 2. 60 degrees \n";
+		std::cin >> temperature;
+		break;
+	case 3:
+		std::cout << "running wash... \n";
+		break;
+	default:
+		std::cout << "invalid input! \n";
+	}
+}
+return 0;
+}
